@@ -1,18 +1,26 @@
 {
-  "name": "Collabri",
-  "description": "User Centered Design Project for Kennesaw State University",
+  "name": "UCD Group 4 FrontEnd Demo",
+  "description": "Group Project for class",
   "main": "index.html",
   "moduleType": [],
+  "keywords": [
+    "bower",
+    "angularjs"
+  ],
   "authors": [
     "Shah Zafrani"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "wumbosoft.com",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "angular": "angularjs#~1.4.7",
+    "angular-material": "~0.11.4"
+  }
 }
