@@ -8,19 +8,13 @@
     <title>Collabri</title>
 
 </head>
-<body>
+<body ng-app="collabriApp">
 <script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="bower_components/angular-animate/angular-animate.js"></script>
 <script src="bower_components/angular-material/angular-material.min.js"></script>
-<div class="container" ng-app>
-    <form class="form-signin">
-        <h2 class="form-signin-heading">What you type here:</h2>
+<div ng-view="">
 
-        <input ng-model="data.input" type="text" class="form-control" autofocus>
-
-        <h2 class="form-signin-heading">It will also be shown below:</h2>
-        <input type="text" class="sr-only">{{data.input}}</label>
-    </form>
-    <md-button>It shows!</md-button>
 </div>
 </body>
 </html>
