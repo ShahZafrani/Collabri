@@ -4,7 +4,8 @@ angular
     .module('collabriApp', [
         'ngAnimate',
         'ngRoute',
-        'ngMaterial'
+        'ngMaterial',
+        'mainCtrl'
     ])
     .config(function ($routeProvider) {
         $routeProvider
