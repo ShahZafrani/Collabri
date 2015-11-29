@@ -3,11 +3,5 @@
  */
 angular.module('collabriApp')
     .controller('mainCtrl', function($scope){
-       $scope.groupMembers = [
-           'Wyatt',
-           'Allen',
-           'Garrett',
-           'Miguel',
-           'Shah'
-       ];
+
     });

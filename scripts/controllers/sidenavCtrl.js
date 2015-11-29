@@ -14,6 +14,10 @@ angular.module('collabriApp')
             var path = "/" + link;
             $location.path(path);
         }
-
+        $scope.isCurrentLocation = isCurrentLocation;
+        function isCurrentLocation(link){
+            var location = $location.path();
+            return (location.indexOf(link) > 0);
+        }
 
     });

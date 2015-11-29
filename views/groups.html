@@ -1,4 +1,14 @@
 <section layout="row" layout-align="center stretch" flex>
     <sidenav></sidenav>
-    <h1>{{pageTitle}}</h1>
+    <div layout ="column" layout-align="center center">
+        <h1>{{pageTitle}}</h1>
+        <br>
+        <md-card layout="column" layout-align="center center">
+            <h3>  User Centered Design: Final Project  </h3>
+            <div ng-repeat="member in groupMembers">
+                <p>{{member}}</p>
+                <br>
+            </div>
+        </md-card>
+    </div>
 </section>
