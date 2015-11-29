@@ -14,6 +14,26 @@ angular
                 controller: 'mainCtrl',
                 controllerAs: 'main'
             })
+            .when('/Groups', {
+                templateUrl: 'views/groups.html',
+                controller: 'groupsCtrl',
+                controllerAs: 'groups'
+            })
+            .when('/Files', {
+                templateUrl: 'views/files.html',
+                controller: 'filesCtrl',
+                controllerAs: 'files'
+            })
+            .when('/Schedule', {
+                templateUrl: 'views/schedule.html',
+                controller: 'scheduleCtrl',
+                controllerAs: 'schedule'
+            })
+            .when('/Meetings', {
+                templateUrl: 'views/meetings.html',
+                controller: 'meetingsCtrl',
+                controllerAs: 'meetings'
+            })
             .otherwise({
                 redirectTo: '/'
             });

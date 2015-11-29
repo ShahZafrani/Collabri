@@ -1,0 +1,14 @@
+<div ng-controller="sidenavCtrl" flex="10">
+    <md-sidenav md-is-locked-open="true">
+        <h2>Collabri</h2>
+    <div layout="column" layout-align="left">
+        <div ng-repeat="link in links">
+        <md-button ng-click="openLink(link)">
+            {{link}}
+        </md-button>
+            <br>
+        </div>
+    </div>
+
+    </md-sidenav>
+</div>
