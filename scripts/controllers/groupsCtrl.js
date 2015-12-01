@@ -7,5 +7,20 @@ angular.module('collabriApp')
             'Miguel',
             'Shah'
         ];
+
+        $scope.basketWeaving = [
+          'Marty McFly',
+            'Inigo Montoya',
+            'John Cena'
+        ];
+
+        $scope.mysteryInc = [
+            'Shaggy',
+            'Scooby',
+            'Freddy',
+            'Velma',
+            'Daphne'
+        ];
+
         $scope.pageTitle = 'Groups';
     });

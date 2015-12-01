@@ -1,16 +1,14 @@
-<div ng-controller="sidenavCtrl" flex="10" layout="column" layout-align="start start">
+<div ng-controller="sidenavCtrl" layout="column" layout-align="start start"  class="sidenav">
 
-    <md-button ng-click="openLink('')">Collabri</md-button>
-    <md-sidenav md-is-locked-open="true">
+    <h3 ng-click="openLink('')" style="cursor: pointer">  Collabri</h3>
         <div ng-repeat="link in links">
-        <md-button ng-if="isCurrentLocation(link)" class="md-raised md-primary" ng-click="openLink(link)">
+        <md-button ng-if="isCurrentLocation(link)" class="md-raised selectedSidenavButton" ng-click="openLink(link)">
             {{link}}
         </md-button>
-            <md-button ng-if="!isCurrentLocation(link)" class="md-raised" ng-click="openLink(link)">
+            <md-button ng-if="!isCurrentLocation(link)" class="md-raised sidenavButton" ng-click="openLink(link)">
                 {{link}}
             </md-button>
             <br>
         </div>
 
-    </md-sidenav>
 </div>

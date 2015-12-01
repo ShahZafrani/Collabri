@@ -1,14 +1,33 @@
-<section layout="row" layout-align="center stretch" flex>
+<div layout="row" layout-align="center stretch">
     <sidenav></sidenav>
-    <div layout ="column" layout-align="center center">
-        <h1>{{pageTitle}}</h1>
-        <br>
-        <md-card layout="column" layout-align="center center">
-            <h3>  User Centered Design: Final Project  </h3>
+    <div id="meat">
+        <div layout="column" layout-align="center center">
+            <h2>{{pageTitle}}</h2>
+            <br>
+            <md-card layout="column" class="groupCard" layout-align="center center">
+            <h3>  User Centered Design   </h3>
+            <h4>Final Project</h4>
             <div ng-repeat="member in groupMembers">
                 <p>{{member}}</p>
                 <br>
             </div>
         </md-card>
+            <md-card layout="column" class="groupCard" layout-align="center center">
+                <h3>  Underwater Basket Weaving   </h3>
+                <h4>Extra Credit Group</h4>
+                <div ng-repeat="weaver in basketWeaving">
+                    <p>{{weaver}}</p>
+                    <br>
+                </div>
+            </md-card>
+            <md-card layout="column" class="groupCard" layout-align="center center">
+                <h3>  Mystery Incorporated   </h3>
+                <h4>Detective Group</h4>
+                <div ng-repeat="detective in mysteryInc">
+                    <p>{{detective}}</p>
+                    <br>
+                </div>
+            </md-card>
+        </div>
     </div>
-</section>
+</div>
