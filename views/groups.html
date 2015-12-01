@@ -7,9 +7,8 @@
             <md-card layout="column" class="groupCard ucd" layout-align="start">
             <h3>  User Centered Design   </h3>
             <h4>Final Project</h4>
-            <div ng-repeat="member in groupMembers">
-                <p>{{member}}</p>
-                <br>
+            <div ng-repeat="update in ucdProgress">
+                <p>{{update}}</p>
             </div>
                 <p style="width:95%" data-value="95"></p>
                 <progress max="100" value="95" class="html5">
@@ -21,8 +20,8 @@
             <md-card layout="column" class="groupCard basketWeave" layout-align="start">
                 <h3>  Underwater Basket Weaving   </h3>
                 <h4>Extra Credit Group</h4>
-                <div ng-repeat="weaver in basketWeaving">
-                    <p>{{weaver}}</p>
+                <div ng-repeat="update in basketProgress">
+                    <p>{{update}}</p>
                     <br>
                 </div>
                 <p style="width:80%" data-value="80"></p>
@@ -35,8 +34,8 @@
             <md-card layout="column" class="groupCard mysteryInc" layout-align="start">
                 <h3>  Mystery Incorporated   </h3>
                 <h4>Detective Group</h4>
-                <div ng-repeat="detective in mysteryInc">
-                    <p>{{detective}}</p>
+                <div ng-repeat="update in mysteryProgress">
+                    <p>{{update}}</p>
                     <br>
                 </div>
                 <p style="width:20%" data-value="20"></p>

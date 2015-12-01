@@ -1,25 +1,21 @@
 angular.module('collabriApp')
     .controller('groupsCtrl', function($scope){
-        $scope.groupMembers = [
-            'Wyatt',
-            'Allen',
-            'Garrett',
-            'Miguel',
-            'Shah'
+        $scope.ucdProgress = [
+            'Miguel Betancourt updated Design Doc',
+            'Garrett Noll complete task Sketch Interface',
+            'Wyatt Schafer scheduled new Group Meeting'
         ];
 
-        $scope.basketWeaving = [
-          'Marty McFly',
-            'Inigo Montoya',
-            'John Cena'
+        $scope.basketProgress = [
+          'Marty McFly completed task Travel Time',
+            'Inigo Montoya updated Name Tag',
+            'John Cena complete task Become WWE Heavyweight Champion'
         ];
 
-        $scope.mysteryInc = [
-            'Shaggy',
-            'Scooby',
-            'Freddy',
-            'Velma',
-            'Daphne'
+        $scope.mysteryProgress = [
+            'Shaggy updated Grocery List',
+            'Scooby completed task Eat Scooby Snacks',
+            'Velma added new task Find My Glasses'
         ];
 
         $scope.pageTitle = 'Groups';
