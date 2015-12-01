@@ -1,7 +1,18 @@
 .groupCard {
     padding: 40px;
     width: 440px;
-    background: #9cc4d9;
+}
+
+.ucd{
+    background-color: #c4d99c;
+}
+
+.basketWeave{
+    background-color: #9cc4d9;
+}
+
+.mysteryInc{
+    background-color: #d99cc4;
 }
 
 .sidenavButton {
@@ -13,6 +24,7 @@
 }
 
 .sidenav{
+    padding-left: 10px;
     position: relative;
     float: left;
 }
@@ -27,6 +39,7 @@
     overflow-x: hidden;
 }
 
+
 body {
-    background-color: #DCDCDC;
+    background-color: #FDFDFD;
 }
