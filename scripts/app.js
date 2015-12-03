@@ -4,7 +4,8 @@ angular
     .module('collabriApp', [
         'ngAnimate',
         'ngRoute',
-        'ngMaterial'
+        'ngMaterial',
+        'ui.calendar'
 
     ])
     .config(function ($routeProvider) {
