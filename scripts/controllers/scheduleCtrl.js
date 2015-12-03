@@ -3,7 +3,16 @@ angular.module('collabriApp')
 
         $scope.pageTitle = 'Schedule';
 
-        $scope.eventSources = [];
+        $scope.eventSources = [
+            {
+                title: 'Final Presentation: UCD',
+                start: '2015-12-03'
+            },
+            {
+                title: 'Turn Up!',
+                start: '2015-12-08'
+            }
+        ];
 
         $scope.uiConfig = {
             calendar:{
